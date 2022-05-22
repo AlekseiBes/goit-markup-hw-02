@@ -16,7 +16,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-background-color);
   color: var(--primary-text-color);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  font-size: 14px;
 }
 
 /* убираем точки списков */
@@ -35,12 +36,8 @@ body {
 
 .navigation {
   color: var(--secondary-text-color);
-  font-family: 'Roboto';
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .navigation:hover,
@@ -52,11 +49,6 @@ body {
 
 .contact {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -89,27 +81,21 @@ body {
 
 /* Премиущества */
 
-.skil-h2 {
-  color: var(--primary-text-color);
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+.skills-title {
+  color: var(--secondary-text-color);
+  line-height: 1.17;
 }
 
-.skil-h3 {
-  color: var(--secondary-text-color);
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
+.skills-description {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 /* Заглавия */
 
 .section-title {
   color: var(--secondary-text-color);
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -117,17 +103,15 @@ body {
 
 /* Наша команда */
 
-.team {
+.team-title {
   color: var(--secondary-text-color);
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
 }
 
-.team2 {
+.team-description {
   color: var(--primary-text-color);
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
@@ -163,12 +147,16 @@ body {
 
 .footer {
   background-color: var(--content-footer-color);
-  color: var(--white-text-color);
-  font-family: 'Roboto';
+  color: var(--footer-text-color);
+  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+.footer:hover,
+.footer:focus {
+  color: var(--button-blue-color);
 }
 
 /* Портфолио */
