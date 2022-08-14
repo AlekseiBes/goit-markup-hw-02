@@ -1,0 +1,119 @@
+:root {
+  --primary-font-color: rgba(117, 117, 117, 1);
+  --primari-buckground-color: rgba(255, 255, 255, 1);
+  --secondary-font-color: rgba(33, 150, 243, 1);
+  --third-font-color: rgba(33, 33, 33, 1);
+  --font-color-footer: rgba(255, 255, 255, 0.6);
+  --font-color-logo-2: rgba(0, 0, 0, 1);
+  --buckground-color-1: rgba(245, 244, 250, 1);
+  --buckground-color-2: rgba(47, 48, 58, 1);
+  
+}
+
+body {
+  background-color: var(--primari-buckground-color);
+  color: var(--primary-font-color);
+  font-family: "Roboto";
+}
+
+/* hidden */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--secondary-font-color);
+}
+
+.logo2 {
+color: var(--font-color-logo-2);
+}
+
+.logo3 {
+  color: var(--primari-buckground-color);
+}
+
+/*  navigation contact footer*/
+
+.site-nav .link {
+  color: var(--third-font-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--secondary-font-color);
+}
+
+.title {
+  color: var(--third-font-color);
+}
+
+/* footer font color */
+
+.site-footer .link {
+  color: var(--font-color-footer);
+}
+
+.site-footer .link:hover,
+.site-footer .link:focus {
+  color: var(--secondary-font-color);
+}
+
+/* section footer color */
+
+.section-footer {
+  background-color: var(--buckground-color-2);
+}
+
+.title-h1 {
+  color: var(--primari-buckground-color);
+}
+
+/* buckground color team */
+
+.color-team {
+  background-color: var(--buckground-color-1);
+}
+
+.color-foto-team {
+  background-color: var(--primari-buckground-color);
+}
+
+/* button zakaz uslugi */
+
+.button-posluga:hover,
+.button-posluga:focus {
+  background-color: #2196F3;
+  color: var(--primari-buckground-color);
+  cursor: pointer;
+}
+
+/* button portfolio */
+
+.button-color-portfolio {
+  background-color: var(--buckground-color-1);
+  color: var(--third-font-color);
+  cursor: pointer;
+}
+
+.button-color-portfolio .link:hover,
+.button-color-portfolio .link:focus {
+  background-color: var(--secondary-font-color);
+  color: var(--primari-buckground-color);
+}
