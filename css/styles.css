@@ -7,13 +7,14 @@
   --font-color-logo-2: rgba(0, 0, 0, 1);
   --buckground-color-1: rgba(245, 244, 250, 1);
   --buckground-color-2: rgba(47, 48, 58, 1);
-  
 }
 
 body {
   background-color: var(--primari-buckground-color);
   color: var(--primary-font-color);
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 /* hidden */
@@ -39,10 +40,13 @@ body {
 
 .logo {
   color: var(--secondary-font-color);
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1, 19;
 }
 
 .logo2 {
-color: var(--font-color-logo-2);
+  color: var(--font-color-logo-2);
 }
 
 .logo3 {
@@ -53,6 +57,9 @@ color: var(--font-color-logo-2);
 
 .site-nav .link {
   color: var(--third-font-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
 }
 
 .site-nav .link:hover,
@@ -60,8 +67,55 @@ color: var(--font-color-logo-2);
   color: var(--secondary-font-color);
 }
 
-.title {
+.class-nav {
+  color: var(--secondary-font-color);
+}
+
+.title-h1 {
+  color: var(--primari-buckground-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+}
+
+.title-h2 {
   color: var(--third-font-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+}
+
+.title-h2-2 {
+  color: var(--third-font-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.title-h3 {
+  color: var(--third-font-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+}
+
+.title-h4 {
+  color: var(--third-font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 19;
+}
+
+.text-perevag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 19;
 }
 
 /* footer font color */
@@ -79,10 +133,9 @@ color: var(--font-color-logo-2);
 
 .section-footer {
   background-color: var(--buckground-color-2);
-}
-
-.title-h1 {
-  color: var(--primari-buckground-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
 }
 
 /* buckground color team */
@@ -99,9 +152,13 @@ color: var(--font-color-logo-2);
 
 .button-posluga:hover,
 .button-posluga:focus {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: var(--primari-buckground-color);
   cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
 }
 
 /* button portfolio */
@@ -110,6 +167,10 @@ color: var(--font-color-logo-2);
   background-color: var(--buckground-color-1);
   color: var(--third-font-color);
   cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
 }
 
 .button-color-portfolio .link:hover,
